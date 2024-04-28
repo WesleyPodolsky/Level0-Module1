@@ -21,9 +21,12 @@ canvas.grid()
 '''
 Text Rendering Example:
                     x    y                                                       
-canvas.create_text(100, 50, text="text goes here", font=("Arial", 16))
+
 '''
 # Put your code below
-
+canvas.create_text(100, 50, text="sprinkles", font=("Arial", 16))
+canvas.create_text(100, 75, text="chocolate syrup", font=("Arial", 16))
+canvas.create_text(100, 100, text="icecream scoop x3", font=("Arial", 16))
+canvas.create_text(100, 125, text="banana", font=("Arial", 16))
 
 root.mainloop()
